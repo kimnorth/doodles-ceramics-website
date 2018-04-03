@@ -37,6 +37,9 @@
         margin-bottom: auto;
         margin-left: 10px;
     }
+    main {
+        padding-top: 50px;
+    }
 }
 
 #navbar ul {
