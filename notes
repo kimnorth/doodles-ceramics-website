@@ -1,1 +1,11 @@
 MVC app: http://adanselm.github.io/c++/programming/2015/02/03/web-apps-for-cpp-programmers.html
+
+BEM
+Naming convention - not a framework. You don't need to install anything, works with vanilla CSS.
+Makes front-end code easier to read and maintain, scale, more robust and explicit
+Breaks down CSS elements in three naming rules:
+Blocks
+Elements
+Modifiers
+
+https://www.w3schools.com/w3css/w3css_slideshow.asp
