@@ -53,3 +53,7 @@
 #navbar ul li a {
     text-decoration: none;
 }
+
+#drop-down-menu {
+    display: none;
+}
