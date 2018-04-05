@@ -1,5 +1,7 @@
 MVC app: http://adanselm.github.io/c++/programming/2015/02/03/web-apps-for-cpp-programmers.html
 
+http://getbem.com/introduction/
+
 BEM
 Naming convention - not a framework. You don't need to install anything, works with vanilla CSS.
 Makes front-end code easier to read and maintain, scale, more robust and explicit
