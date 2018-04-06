@@ -7,7 +7,6 @@ window.onload = function(){
     var menuDown = false;
     
     menuButton.addEventListener('click', function(e){
-        console.log('Click!')
         if(menuDown){
             menu.style.display = 'none';
             menuDown = false;
