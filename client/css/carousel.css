@@ -1,0 +1,9 @@
+.carousel-images {
+    display: none;
+}
+
+@media (max-width: 320px){
+    .carousel-images {
+        width: 320px;
+    }
+}

@@ -25,7 +25,7 @@
         width: 320px;
         background-color: #5E9DC8;
     }
-    #navbar ul li a {
+    .drop-down-menu__link {
         display: none;
     }
     #hamburger-icon {
@@ -62,7 +62,7 @@
     width: 320px;
 }
 
-#drop-down-menu li a {
+.drop-down-menu__link {
     text-decoration: none;
     color: white;
 }
