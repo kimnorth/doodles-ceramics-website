@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/carousel.css">
   </head>
   <body>
@@ -13,15 +14,17 @@
       <nav>
         <div id="navbar">
           <i class="material-icons" id="hamburger-icon">menu</i>
-          <ul>
-            <li><a href="">Doodles</a></li>
-            <li><a href="#about-us">About</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#parties">Parties</a></li>
-            <li><a href="#prices">Prices</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+          <div class="navbar--main-div">
+            <ul>
+              <li><a href="">Doodles</a></li>
+              <li><a href="#about-us">About</a></li>
+              <li><a href="#location">Location</a></li>
+              <li><a href="#parties">Parties</a></li>
+              <li><a href="#prices">Prices</a></li>
+              <li><a href="">Gallery</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
         </div>
         <div id="drop-down-menu">
           <ul>
@@ -38,6 +41,7 @@
     </header>
     
     <main>
+      
       <div id="carousel-container">
         <div class="carousel">
           <img class="carousel-images carousel-image--fade" src="img/easter-hen.jpg" />
@@ -46,37 +50,44 @@
           <img class="carousel-images carousel-image--fade" src="img/hen-party.jpg" />
         </div>
       </div>
-        
-      <section id="about-us">
-        <header class="section__header" id="about-us-intro">
-          <h1>Doodles Ceramics</h1>
-          <p>Doodles is Edinburgh's first informal "Paint your own" ceramic workshop. Decorate mugs, plates bowls, egg cups and more. We offer feet and hand prints for young children, birthday parties or hen parties.</p>
-        </header>
       
-        <div class="section__body" id="about-us__body">
-          <h2>How it works</h2>
-          <p>Doodles Ceramics Workshop offers a unique opportunity for everyone to discover their creativity. Come along to Edinburgh's first informal “paint your own” pottery workshop. No experience is necessary and in 3 easy steps you can create your own work of art.</p>
-          <p>Select your Item: Choose from our own range of white, unglazed pottery items. The range includes mugs, plates, bowls, jugs, vases, tiles, tea-pots, boxes, egg cups and many more.</p>
-          <p>Pick your Colours: Select from over 80 under-glaze colours. Our studio fee includes all materials: brushes, paints, stencils, stamps, clear glaze and firing.</p>
-          <p>Create your Original: Paint, splash, splatter, doodle, dab, stamp, stencil, dot and brush your design. Staff will always be on hand to give advice and a design library for more inspirational ideas is also available.</p>
-          <p>We will then clear glaze and fire your item. Your finished piece will be ready in 4-5 days and will be food and dish-washer safe.</p>
-            
-          <p>Gift Vouchers treat someone you know to the Doodles experience.</p>
-          <p>Birthday Parties for all age groups. BYO food & drink</p>
-          <p>Evening Classes will be organised with the help of staff for those wishing to enhance their painting and clay building skills</p>
-          <p>Custom Orders Have a lot on your plate? Let us do the artwork for you</p>
-          <p>Special Occasions Unique gifts for: Anniversaries, birthdays, Christmas, Christenings, Weddings, retirements, house warmings.</p>  
+      <div class="grid-container">  
+        
+      <!--<section id="about-us">-->
+          
+          <div class="row">
+            <header>
+              <h1>Doodles Ceramics</h1>
+              <p>Doodles is Edinburgh's first informal "Paint your own" ceramic workshop. Decorate mugs, plates bowls, egg cups and more. We offer feet and hand prints for young children, birthday parties or hen parties.</p>
+            </header>
+          </div>
+          
+          <div class="row">
+              <h2>How it works</h2>
+              <p>Doodles Ceramics Workshop offers a unique opportunity for everyone to discover their creativity. Come along to Edinburgh's first informal “paint your own” pottery workshop. No experience is necessary and in 3 easy steps you can create your own work of art.</p>
+              <p>Select your Item: Choose from our own range of white, unglazed pottery items. The range includes mugs, plates, bowls, jugs, vases, tiles, tea-pots, boxes, egg cups and many more.</p>
+              <p>Pick your Colours: Select from over 80 under-glaze colours. Our studio fee includes all materials: brushes, paints, stencils, stamps, clear glaze and firing.</p>
+              <p>Create your Original: Paint, splash, splatter, doodle, dab, stamp, stencil, dot and brush your design. Staff will always be on hand to give advice and a design library for more inspirational ideas is also available.</p>
+              <p>We will then clear glaze and fire your item. Your finished piece will be ready in 4-5 days and will be food and dish-washer safe.</p>
+                
+              <p>Gift Vouchers treat someone you know to the Doodles experience.</p>
+              <p>Birthday Parties for all age groups. BYO food & drink</p>
+              <p>Evening Classes will be organised with the help of staff for those wishing to enhance their painting and clay building skills</p>
+              <p>Custom Orders Have a lot on your plate? Let us do the artwork for you</p>
+              <p>Special Occasions Unique gifts for: Anniversaries, birthdays, Christmas, Christenings, Weddings, retirements, house warmings.</p>  
+          </div>
+          
+      <!--</section>-->
+      
+    <!--  <section id="location">-->
+        
+        <div class="row">
+          <header class="section__header" id="location__intro">
+            <h1>Location</h1>
+          </header>
         </div>
         
-      </section>
-      
-      <section id="location">
-        
-        <header class="section__header" id="location__intro">
-          <h1>Location</h1>
-        </header>
-        
-        <div class="section__body" id="location__body">
+        <div class="row" id="location__body">
           <h2>Opening Hours</h2>
           <p><address>Doodles Ceramics Workshop 29 Marchmont Crescent Edinburgh EH9 1HQ</address></p>
           <p>tel: 0131 229 1399</p>
@@ -84,7 +95,7 @@
           <p>Metered parking £1.80 per hour</p>
           <p>Buses: 41, 24, 5</p>
   
-          <!--<h2>Create A Work Of Art</h2>-->
+          <h2>Create A Work Of Art</h2>
           <ul>
             <li>Monday	10am-6pm</li>
             <li>Tuesday	10:30am-9pm</li>
@@ -100,13 +111,17 @@
           <p>Metered parking £1.80 per hour.</p>
           <p>Buses: 41, 24, 5</p>
         </div>
-      </section>
+    <!--  </section>-->
       
-      <section id="parties">
-        <header class="section__header" id="parties__intro">
-          <h1>Parties</h1>
-        </header>
-        <div class="section__body" id="parties__body">
+    <!--  <section id="parties">-->
+        
+        <div class="row">
+          <header id="parties__intro">
+            <h1>Parties</h1>
+          </header>
+        </div>
+        
+        <div class="row" id="parties__body">
           <p>We can cater for groups of up to 30 people and will provide:</p>
           <ul>
             <li>A table for up to 2 hours</li>
@@ -117,14 +132,17 @@
             <li>Party invitations</li>
           </ul>
         </div>
-      </section>
+    <!--  </section>-->
       
-      <section id="prices">
-        <header class="section__header" id="prices__intro">
-          <h1>Studio Rates</h1>
-          <p>Our large selection of pottery ranges from £2.50 to £65 and there's no studio fee!</p>
-        </header>
-        <div class="section__body" id="prices__body">
+    <!--  <section id="prices">-->
+        <div class="row">
+          <header class="section__header" id="prices__intro">
+            <h1>Studio Rates</h1>
+            <p>Our large selection of pottery ranges from £2.50 to £65 and there's no studio fee!</p>
+          </header>
+        </div>
+        
+        <div class="row" id="prices__body">
           <h2>Price List:</h2>
           <ul>
             <li>
@@ -154,7 +172,9 @@
           </ul>
           <p>All children under 10 must be accompanied by an adult. Booking highly reccommended</p>
         </div>
-      </section>
+    <!--  </section>-->
+      
+    </div>
       
     </main>
     
