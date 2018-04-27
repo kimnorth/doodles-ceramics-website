@@ -1,1 +1,1 @@
-A project to redesign an existing website using modern front end technologies.
+A personal project to redesign and build an existing static website.
